@@ -1,7 +1,7 @@
 {
-    "name": "alpine",
+    "name": "Ecommerce",
     "version": "1.0.0",
-    "description": "Bootstrap 5 HTML Template created by Pixel Rocket",
+    "description": "Bootstrap 5 HTML Template",
     "scripts": {
         "start": "webpack-dev-server --open",
         "build": "del-cli dist && webpack -p",
