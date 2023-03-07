@@ -2,7 +2,7 @@
 
 ## Overview
  A responsive Bootstrap 5 Ecommerce template
-<strong><a href="https://github.com/shima78/Bootstrap5-Ecommerce.git">View Demo</a>
+<strong><a href="https://shima78.github.io/Bootstrap5-Ecommerce/">View Demo</a>
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ To keep code repetition to a minimum, we've used Handlebars.js as the templating
 
 
 ## Demo Link
-[Demo URL](https://github.com/shima78/Bootstrap5-Ecommerce.git)
+[Demo URL](https://shima78.github.io/Bootstrap5-Ecommerce/)
 
 
 
