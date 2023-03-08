@@ -476,7 +476,7 @@
                                     Size (UK) : <span class="selected-option fw-bold"></span>
                                 </small>
                                 <div class="form-group">
-                                    <select dir="rtl" name="selectSize" class="form-control" data-choices>
+                                    <select dir="rtl" name="selectSize" class="form-control">
                                         <option value="">Please Select Size</option>
                                         <option value="Extra Small">XS</option>
                                         <option value="Medium">M</option>
@@ -1574,12 +1574,11 @@
     <!-- / Footer-->
     <!-- Offcanvas Imports-->
     <!-- Cart Offcanvas-->
-    <div class="offcanvas offcanvas-end d-none" tabindex="-1" id="offcanvasCart">
+    <div class="offcanvas offcanvas-start d-none" tabindex="-1" id="offcanvasCart">
       <div class="offcanvas-header d-flex align-items-center">
         <h5 class="offcanvas-title" id="offcanvasCartLabel">Your Cart</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
+         </div>
+      <div class="offcanvas-body mb-2">
         <div class="d-flex flex-column justify-content-between w-100 h-100">
           <div>
     
@@ -1635,7 +1634,7 @@
             </div>
     
           </div>
-          <div class="border-top pt-3">
+          <div class="border-top pt-3 ">
             <div class="d-flex justify-content-between align-items-center">
               <p class="m-0 fw-bolder">Subtotal</p>
               <p class="m-0 fw-bolder">$233.33</p>
