@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }} " dir="rtl">
+
+    <!-- Navbar -->
+    {{> (config config.partials.navbar)
+    configClassList=config.classes.navbar
+    classList="" }}
+    <!-- / Navbar-->
+    <!-- Category Top Banner -->
+    <div class="py-8 bg-img-cover bg-dark bg-overlay-gradient-dark position-relative overflow-hidden mb-4 bg-pos-center-center"
+         style="background-image: url({{webRoot}}/assets/images/banners/banner-1.jpg);">
+        <div class="container position-relative z-index-20" data-aos="fade-right" data-aos-delay="300">
+
+            <h1 class="fw-bold display-6 mb-4 text-white">Contact Us</h1>
+            <div class="col-12 col-md-6">
+                <p class="lead text-white mb-0">
+                    help us improve our services
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Category Top Banner -->
+
+    <!-- Main Section-->
+    <section class="mt-5 container {{ config.classes.content }}">
+        <!-- Page Content Goes Here -->
+
+        <div class="row  mt-4">
+            <!-- Checkout Panel Left -->
+            <div >
+                {{> contact/contact-form }}
+            </div>
+            <!-- / Checkout Panel Left -->
+
+
+        </div>
+
+        <!-- /Page Content -->
+    </section>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+
+    <!-- Offcanvas Imports-->
+    {{> offcanvas/offcanvas }}
+
+    <!-- Search Overlay-->
+    {{> search/search-overlay }}
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

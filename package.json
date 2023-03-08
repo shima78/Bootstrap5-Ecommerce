@@ -4,7 +4,7 @@
     "description": "Bootstrap 5 HTML Template",
     "scripts": {
         "start": "webpack-dev-server --open",
-        "build": "del-cli dist && webpack -p",
+        "build": "del-cli docs && webpack -p",
         "build-docs": "del-cli docs && webpack --config ./webpack.config.docs.js -p"
     },
     "keywords": [],

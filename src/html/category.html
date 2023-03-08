@@ -4,10 +4,10 @@
 <!-- Head -->
 {{> (config config.partials.head) title=config.defaultPageTitle }}
 
-<body class="{{ config.classes.body }}">
+<body class="{{ config.classes.body }}" dir="rtl">
 
     <!-- Navbar -->
-    {{> (config config.partials.navbar) 
+    {{> (config config.partials.navbar)
         configClassList=config.classes.navbar
         classList="border-0" }}
     <!-- / Navbar-->
@@ -125,9 +125,9 @@
     <!-- / Main Section-->
 
     <!-- Footer -->
-    {{> (config config.partials.footer) 
-            configClassList=config.classes.footer 
-            classList="" 
+    {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
         }}
 
     <!-- Offcanvas Imports-->

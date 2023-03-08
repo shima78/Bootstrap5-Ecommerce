@@ -1,6 +1,8 @@
 # Dependency directories
 node_modules/
-
+dist/assets
+docs/assets
+src/assets
 # Optional npm cache directory
 .npm
 

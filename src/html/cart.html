@@ -4,10 +4,10 @@
 <!-- Head -->
 {{> (config config.partials.head) title=config.defaultPageTitle }}
 
-<body class="{{ config.classes.body }}">
+<body class="{{ config.classes.body }}" dir="rtl">
 
     <!-- Navbar -->
-    {{> (config config.partials.navbar) 
+    {{> (config config.partials.navbar)
         configClassList=config.classes.navbar
         classList="" }}
     <!-- / Navbar-->
@@ -39,16 +39,16 @@
     <!-- / Main Section-->
 
     <!-- Footer -->
-    {{> (config config.partials.footer) 
-            configClassList=config.classes.footer 
-            classList="" 
+    {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
         }}
 
     <!-- Offcanvas Imports-->
     {{> offcanvas/offcanvas }}
 
     <!-- Search Overlay-->
-    {{> search/search-overlay }}    
+    {{> search/search-overlay }}
 
     <!-- Theme JS -->
     {{> footer/scripts }}

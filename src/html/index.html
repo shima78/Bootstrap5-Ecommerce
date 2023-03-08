@@ -4,11 +4,11 @@
 <!-- Head -->
 {{> (config config.partials.head) title=config.defaultPageTitle }}
 
-<body class="{{ config.classes.body }}">
+<body class="{{ config.classes.body }}" dir="rtl">
 
     <!-- Navbar -->
     <div class="position-relative z-index-30">
-        {{> (config config.partials.navbar) 
+        {{> (config config.partials.navbar)
                 configClassList=config.classes.navbar
                 classList="border-0 position-absolute w-100 z-index-30 bg-transparent navbar-dark navbar-transparent bg-white-hover transition-all" }}
     </div>
@@ -123,11 +123,6 @@
         </section>
         <!-- / Staff Picks-->
 
-        <!-- Image Hotspot Banner-->
-        <section class="my-10 position-relative">
-            {{> banners/banner-image-hotspot }}
-        </section>
-        <!-- / Image Hotspot Banner-->
 
 
 
@@ -205,7 +200,7 @@
 
     <!-- Search Overlay-->
     {{> search/search-overlay }}
-    
+
     <!-- Theme JS -->
     {{> footer/scripts }}
 
